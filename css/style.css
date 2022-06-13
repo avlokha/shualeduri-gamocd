@@ -16,7 +16,7 @@ a {
 .container {
   max-width: 1920px;
   width: 100%;
-  margin: 0 auto;
+  margin: 2% auto;
 }
 
 /* sidenavbar */
@@ -101,6 +101,7 @@ a {
   margin: 0 auto;
 }
 .secondul li {
+  font-family: "Avenir Book";
   width: 83px;
   margin-left: 45px;
   display: inline-block;
@@ -132,6 +133,7 @@ a {
   align-items: center;
 }
 .goproo a {
+  font-family: "Avenir Heavy";
   display: flex;
   align-items: center;
 }
@@ -141,7 +143,8 @@ a {
   margin-right: 5%;
 }
 .filters {
-  margin-left: 20%;
+  font-family: "Avenir Heavy";
+  margin-left: 23%;
   border-style: solid;
   padding: 15px 25px;
   border-radius: 12px;
@@ -165,4 +168,26 @@ a {
 }
 .UPLOAD:hover {
   opacity: 60%;
+}
+.articless {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 10%;
+}
+.articless p {
+  font-family: "Avenir Medium";
+  margin-left: 10%;
+}
+.articless article:hover {
+  opacity: 70%;
+}
+.articless p {
+  color: #222222;
+}
+.load-more span {
+  background-color: #f2f2f2;
+  margin-left: 40%;
+  padding: 20px 100px;
+  border-radius: 12px;
 }
