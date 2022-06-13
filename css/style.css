@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.white {
+  color: #ffffff;
+}
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* sidenavbar */
+
+.all {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.design a {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10%;
+  margin-bottom: 35%;
+}
+
+.today {
+  font-weight: normal;
+  font-family: "Avenir Book";
+}
+.header {
+  background-color: #222222;
+  width: 319px;
+  height: 1080px;
+}
+.header img {
+  width: 24px;
+  margin-right: 15px;
+}
+.navbar a {
+  display: flex;
+  margin-left: 20%;
+  align-items: center;
+}
+.navbar li {
+  display: flex;
+  align-items: center;
+  width: 259px;
+  height: 60px;
+  margin-left: 5%;
+  border-radius: 15px;
+  font-size: 16px;
+  font-family: "Avenir Medium";
+}
+.navbar li:hover {
+  background-color: #ff2288;
+}
+.following {
+  margin-left: 20%;
+  margin-top: 25%;
+  margin-bottom: 10%;
+  font-size: 12px;
+  font-family: "Avenir Heavy";
+}
+.following2 a {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-bottom: 19px;
+}
+.following2 img {
+  width: 44px;
+}
+.following2 a:hover {
+  opacity: 60%;
+}
+.loadmore {
+  margin-left: 20%;
+  font-size: 14px;
+  font-family: "Avenir Heavy";
+}
+.loadmore:hover {
+  opacity: 60%;
+}
+/* sidenavbar// */
+.black {
+  color: #222222;
+}
+.container1 {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.secondul li {
+  width: 83px;
+  margin-left: 45px;
+  display: inline-block;
+}
+.secondul li:hover {
+  opacity: 60%;
+}
+
+.input-class {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-color: #f8f8f8;
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.inputt input {
+  width: 446px;
+  height: 56px;
+  background-color: #f8f8f8;
+  border-style: none;
+  padding: 5%;
+  margin-bottom: 10%;
+  border-radius: 12px;
+}
+.goproo {
+  align-items: center;
+}
+.goproo a {
+  display: flex;
+  align-items: center;
+}
+
+.goproo img {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.filters {
+  margin-left: 20%;
+  border-style: solid;
+  padding: 15px 25px;
+  border-radius: 12px;
+  border-color: #f8f8f8;
+}
+.filters:hover {
+  opacity: 60%;
+}
+.GOPRO {
+  color: #ff2288;
+}
+.GOPRO:hover {
+  opacity: 60%;
+}
+.UPLOAD {
+  height: 56px;
+  padding: 15px 25px;
+  border-radius: 12px;
+  background-color: #ff2288;
+  color: #ffffff;
+}
+.UPLOAD:hover {
+  opacity: 60%;
+}
