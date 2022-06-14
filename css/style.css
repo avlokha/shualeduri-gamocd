@@ -95,6 +95,12 @@ a {
 .black {
   color: #222222;
 }
+.loadmore111 {
+  color: black;
+}
+.loadmore111:hover {
+  opacity: 70%;
+}
 .container1 {
   max-width: 1400px;
   width: 100%;
@@ -258,6 +264,9 @@ h2 {
   color: #222222;
   margin-top: 20px;
   font-family: "Avenir Book";
+}
+.lastdiv a:hover {
+  opacity: 50%;
 }
 .lastdiv h4 {
   padding-bottom: 15px;
