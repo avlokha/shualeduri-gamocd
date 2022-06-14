@@ -202,8 +202,8 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin-top: 13%;
 }
-h2 {
-  font-size: 50px;
+.topp {
+  font-size: 32px;
   margin-top: 10%;
 }
 .topdesigners1 span {
